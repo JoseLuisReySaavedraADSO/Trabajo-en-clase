@@ -1,7 +1,13 @@
-alert(`Recordemos que para formula calcular un cilindo necesitamos el valor del radio y la altura`)
-let num1 = Number(prompt(`Cual es el radio del cilindro:`))
-let num2 = Number(prompt(`Cual es la altura del mismo:`))
-area=(2*((Math.PI)*(Math.pow(num1,2))))+((2*(math.pi)*num1)*num2)
-vol=((Math.PI)*num1*2)*num2
-console.log(`Teniendo eso sabemos que el área del cilindro es igual a ${area}`)
-console.log(`El valor del volumen seria ${vol}`)
+alert(`Vamos a obtener las raices reales de\nA * x2 +b * x + c\nsabiendo que x es un valor constante igual a 15`)
+let a = Number(prompt(`Ingresar el valor de a`))
+let b = Number(prompt(`Ingresar el valor de b`))
+let c = Number(prompt(`Ingresar el valor de c`))
+let x = 15
+d = (b*b)-4*a*c
+if (d<0){
+    alert(`No existen soluciones reales!!`)
+}else{
+    d1=(-b+Math.sqrt(d))/(2*a)
+    d2=(-b-Math.sqrt(d))/(2*a)
+    console.log(`_____________SOLUCION_____________\nSolucion x1: ${d1}\nSolucion x2: ${d2}`)
+}
