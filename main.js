@@ -1,7 +1,5 @@
-alert(`Para calcular la media de sus 4 numeros ingrese los mismos a continuacion`)
-let num1 = Number(prompt(`Medida del lado 1`))
-let num2 = Number(prompt(`Medida del lado 2`))
-let num3 = Number(prompt(`Medida del lado 3`))
-let num4 = Number(prompt(`Medida del lado 4`))
-med = (num1+num2+num3+num4)/4
-console.log(`La media es ${med}`)
+alert(`Calcularemos el area de un triangulo...`)
+let num1 = Number(prompt(`Cual es la base de su triangulo? `))
+let num2 = Number(prompt(`Cual es la altura de su triangulo? `))
+area = (num1*num2)/2
+console.log(`Segun eso tenemos que el resultado seria = ${area}`)
