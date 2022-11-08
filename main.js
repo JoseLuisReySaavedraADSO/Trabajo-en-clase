@@ -1,11 +1,6 @@
-examen1 = Number(prompt(`Nota del examen 1: `))
-examen2 = Number(prompt(`Nota del examen 2: `))
-examen3 = Number(prompt(`Nota del examen 3: `))
-examen4 = Number(prompt(`Nota del examen 4: `))
-nota = (examen1+examen2+examen3+examen4)/4
-if (nota<3){
-    alert(`No aprobo`)
-}else{
-    alert(`Aprobo`)
-}
-alert(`promedio de las calificacione es ${nota}`)
+v1 = Number(prompt(`Ingrese el valor de la venta 1:`))
+v2 = Number(prompt(`Ingrese el valor de la venta 2:`))
+v3 = Number(prompt(`Ingrese el valor de la venta 3:`))
+ventas = v1+v2+v3
+comision = ventas*0.10
+alert(`Valor de las ventas ${venta}\n valor de la comision ${comision}`)
