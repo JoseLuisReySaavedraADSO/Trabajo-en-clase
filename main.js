@@ -1,6 +1,7 @@
-alert(`Tenemos que calcular la ecuacion:\n(a+7*c)/(b+2-a)+2*b`)
-let a = Number(prompt(`El valor de a es: `))
-let b = Number(prompt(`El valor de b es: `))
-let c = Number(prompt(`El valor de c es: `))
-ecu=(a+7*c)/(b+2-a)+2*b
-console.log(`El valor de la ecuacion es ${ecu}`)
+alert(`Recordemos que para formula calcular un cilindo necesitamos el valor del radio y la altura`)
+let num1 = Number(prompt(`Cual es el radio del cilindro:`))
+let num2 = Number(prompt(`Cual es la altura del mismo:`))
+area=(2*((Math.PI)*(Math.pow(num1,2))))+((2*(math.pi)*num1)*num2)
+vol=((Math.PI)*num1*2)*num2
+console.log(`Teniendo eso sabemos que el área del cilindro es igual a ${area}`)
+console.log(`El valor del volumen seria ${vol}`)
