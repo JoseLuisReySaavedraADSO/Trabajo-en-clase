@@ -1,4 +1,4 @@
-producto = Number(prompt(`Valor del producto: `))
-iva = Number(prompt(`valor iva: `))
-costo = (producto*(iva/100))+producto
-alert(`El precio de su producto con iva del ${iva}% es ${costo} Pesos`)
+nombre = prompt(`Nombre: `)
+horas = Number(prompt(`Cantidad de horas: `))
+total = horas*15300
+alert(`Hola ${nombre}, el total de pago por sus horas de trabajo es ${total}`)
