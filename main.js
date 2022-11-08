@@ -1,4 +1,6 @@
-alert(`Tenemos que calcular el volumen de una esfera...`)
-let num1 = Number(prompt(`Cual es el radio de la esfera?`))
-vol = 4/3*(Math.PI)*Math.pow(radio, 3)
-console.log(`El volumen de la esfera es ${vol}`)
+alert(`Tenemos que calcular la ecuacion:\n(a+7*c)/(b+2-a)+2*b`)
+let a = Number(prompt(`El valor de a es: `))
+let b = Number(prompt(`El valor de b es: `))
+let c = Number(prompt(`El valor de c es: `))
+ecu=(a+7*c)/(b+2-a)+2*b
+console.log(`El valor de la ecuacion es ${ecu}`)
